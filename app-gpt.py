@@ -6,7 +6,6 @@ from openai import OpenAI
 creds = load_creds()
 
 app = Flask(__name__)
-#genai.configure(credentials=creds)
 client = OpenAI(
   organization='org-46oDgKPNQvXx8VTJvVMAzqWe',
   project='$PROJECT_ID',
